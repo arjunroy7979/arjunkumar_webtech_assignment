@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form_02</title>
+    <style>
+        body{
+            background: linear-gradient(120deg, #E7DECC , #F7A890, #90F7A8,#90F7EB ,#95F790 );
+        }
+        #container{
+            width: 900px;
+            height: 505px;
+            box-shadow: -9px 7px 22px black;
+            margin: 50px 0 0 200px;
+            font-family: 'Poppins',sans-serif;
+            border-radius: 10px;
+            background-color: rgba(211, 211, 211, 0.9);
+            cursor: pointer;
+        }
+        #main{
+            width: 100%;
+            height: 40px;
+            padding: 10px;
+        }
+        .reg{
+            width: 450px;
+            height: 40px;
+            float: left;
+            font-size: 30px;
+        }
+        #cont{
+            width: 900px;
+            height: 455px;
+            display: flex;
+        }
+        .log{
+            width: 447px;
+            height: 455px;
+        }
+        form{
+            padding: 20px;
+            font-weight: 500;
+        }
+        input{
+            height:25px;
+            padding: 5px;
+            width: 250px;
+            border-radius: 8px;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+        input:hover{
+            border-color: rgb(255, 165, 0);
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            border-radius: 8px;
+            margin-top: -80px;
+            font-size: 15px;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(128, 128, 128);
+            color: #fff;
+            border-color: rgb(255, 165, 0);
+        }
+        #logo{
+            width: 416px;
+            height: 221px;
+            display: flex;
+        }
+        .pic{
+            width: 208px;
+            height: 218px;
+        }
+        .pic input{
+            width: fit-content;
+            margin-left: 10px;
+        }
+        .u{
+            padding: 10px;
+        }
+        #chb{
+            width:208px;
+            height: 61px;
+        }
+        .re{
+            padding: 10px;
+            margin-left: 7px;
+        }
+        img{
+            width: 190px;
+            height: 200px; 
+        }
+        #btn{
+            width: 416px;
+            height: 151px;
+            display: flex;
+        }
+        .btns{
+            width: 208px;
+            height: 151px;
+            font-weight: bolder;
+        }
+        .btns button{
+            margin-top: 99px;
+            font-weight: bolder;
+            font-size: 15px;
+        }
+        .ancr{
+            margin-top: 99px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="main">
+            <div class="reg">Registration</div>
+            <div class="reg">Login</div>
+        </div>
+
+        <div id="cont">
+            <div class="log"> <!--registration-->
+                <form>
+                    <table cellspacing="18">
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" id="nmae" placeholder="Name" required=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="uname">Username:</label></td>
+                            <td><input type="text" id="unmae" placeholder="Username"required=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="text" id="email" placeholder="Email"required=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Password:</label></td>
+                            <td><input type="password" id="password" placeholder="password"required=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Verify Password:</label></td>
+                            <td><input type="password" id="password" placeholder="verify password"required=""></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><p>Fields marked with an asterick are required</p></td>
+                        </tr>
+                        <tr>
+                            <td><button>Register</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+            <div class="log"> <!--Login-->
+                <form>
+                    <div><p>To access the orivate area of this site , please log in.</p></div>
+                    <div id="logo">
+                        <div class="pic">
+                           <div class="u">Username</div>
+                           <div><input type="text" placeholder="Username"required=""></div>
+                           <div class="u">Password</div>
+                           <div><input type="text" placeholder="Password"required=""></div>
+                           <div id="chb">
+                                <div class="re">Remember Me<input type="checkbox"required=""></div>
+                           </div>
+                        </div>
+                        <div class="pic"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAyN_ByiwVQcKNZ4f13-5pmPaGar89Wgx0hos7yFhIkLtvH47UKDSCCS9OLLnbEX4RtNFN1U9bn49D4uDISUqtDf5K5b-c6TJnXH79hrG-44LkBtP24Ev93bRfL5wdOBqGDXpcsZTtUo98QPIudj3cW9mNSaDTbvtYFrOCOECdIsDek54M_bAsxPWxXg/s320/a%20(2).png" alt=""></div>
+                    </div>
+                    <div id="btn">
+                        <div class="btns">
+                            <button>Login</button>
+                        </div>
+                        <div class="btns">
+                            <div class="ancr"><a href="">Forget your Password?</a></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

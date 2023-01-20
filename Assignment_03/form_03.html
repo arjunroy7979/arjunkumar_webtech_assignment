@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table_03</title>
+    <style>
+        body{
+            margin: 90px 0 90px 400px;
+            background: linear-gradient(45deg, #E7DECC , #F7A890, #90F7A8,#90F7EB ,#95F790 );
+        }
+        #container{
+            width: 520px;
+            height: 990px;
+            box-shadow: -6px 15px 42px rgb(0 0 0 / 80%);
+            border-radius: 15px;
+            background-color: rgba(211, 211, 211, 0.5);
+        }
+        #container:hover{
+            background-color: lightgrey;
+            cursor: pointer;
+        }
+        #text{
+            padding: 10px 0px 0px 20px;
+        }
+        .details{
+            padding: 0 0 0 20px;
+        }
+        .field{
+            margin: 25px;
+            border-color: rgba(211, 211, 211, 0.5);
+            box-shadow: -1px 0px 5px yellow;
+        }
+        .p{
+            display: flex;
+            padding: 10px;
+        }
+        .p input{
+            margin-left: 80px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .p input:hover{
+            border-color: orange;
+            cursor: pointer;
+        }
+        textarea{
+            max-width: 187px;
+            max-height: 39px;
+            margin-left: 71px;
+            border-radius: 8px;
+        }
+        .logo{
+            display: flex;
+            height: 30px;
+            padding: 8px;
+        }
+        .visa{
+            width: 50px;
+            height: 23px;
+            border-radius: 8px;
+        }
+        img{
+            width: 50px;
+            height: 25px; 
+            border-radius: 8px;
+        }
+        .v{
+            padding: 5px;
+            font-weight: bolder;
+            color: black;
+            font-weight: bolder;
+            text-shadow: -1px 0px 2px rgb(228, 10, 10);
+        }
+        .l{
+            font-weight: bolder;
+        }
+        .post input{
+            margin-left: 64px;
+        }
+        .country input{
+            margin-left: 71px;
+        }
+        .number input{
+            margin-left: 44px;
+        }
+        .code input{
+            margin-left: 43px;
+        }
+        .card input{
+            margin-left: 40px;
+        }
+        .button{
+            margin-left: 204px;
+        }
+        button{
+            font-weight: bolder;
+            font-size: 20px;
+            border-radius: 8px;
+            box-shadow: -1px 0px 3px orange;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            box-shadow: -1px 0px 3px red;
+        }
+        fieldset{
+            border-radius: 10px;
+        }
+        .n input{
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="text"><h3>Step 1:Your details</h3></div>
+        <div class="details">
+            <fieldset class="field">
+                <div class="p">
+                    <div class="l n">Name</div>
+                    <div><input type="text" placeholder="First and Last Name"></div>
+                </div>
+                <div class="p">
+                    <div class="l">Email</div>
+                    <div><input type="email" placeholder="abc@gmail.com"></div>
+                </div>
+                <div class="p">
+                    <div class="l">Phone</div>
+                    <div><input type="text" placeholder="+91 - 0000000000"></div>
+                </div>
+            </fieldset>
+            <div id="details"><h3>Step 2:Delivery Address</h3></div>
+            <fieldset class="field">
+                <div class="p">
+                    <div class="l">Address</div>
+                    <div><textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Address"></textarea></div>
+                </div>
+                <div class="p">
+                    <div class="l">post code</div>
+                    <div class="post"><input type="text" placeholder="Post Code"></div>
+                </div>
+                <div class="p">
+                    <div class="l">Country</div>
+                    <div class="country"><input type="text" placeholder="Country"></div>
+                </div>
+            </fieldset>
+            <div id="details"><h3>Step 3:Card details</h3></div>
+            <fieldset class="field">
+                <div><p class="l">Card type</p></div>
+                <div class="logo">
+                    <div><input type="radio" name="carddetails"></div>
+                    <div class="visa"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs6lOBLBRp3ovFVZ_xkJ3Lmb54Xhm57_V5W9ecnvWGbf-Wmg3avbQDuZ3H8yieAS7WRTJtFjT3gpZS7F0BPOpilfMeNeOi2mEO60WQRJuc1FBl26J-52YdijBQ1U_TgicpxPTwMO8YGbmeSsgxzOxlpKSNmWRLU5aS7tlLrB9Y3chZ4lbrXsvucTF-Qg/s320/visa.png" alt=""></div>
+                    <div class="v">Visa</div>
+                    &nbsp;
+                    <div><input type="radio" name="carddetails"></div>
+                    <div class="visa"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMQ9aSnqMftDBrilZLXBisehlR0gURaaZOidlxcDf1MePRjAwMUL-CHJ2bNhUBQlrq-f2xD6qYoSxyE2hi2bSjyVEi2mpd_mb6fL2NeyROjUn86ItBnyyJelwkDwVKuo3uIn8UyRvwHmWreChIi-gRoUw1X7-hBrXAuXgCY9j_8v-foyc0I83PIY4Daw/s320/american.png" alt=""></div>
+                    <div class="v">AmEx</div>
+                    &nbsp;
+                    <div><input type="radio" name="carddetails"></div>
+                    <div class="visa"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFoKvoqXYQ01xqs4ecpW9asH5HNq3ELAt3aRjemps65he0goHsEOWUjI4TtGjHbmi_W4OLJ4Lv_NRsXeMbv1z7A1dklti3dKLdYRUq-Occo2iO5LVUBY77hyCTMVUsmB_GAEMww0prx2eCkmtZM4NXZEJfNW5_SQ0MiJ65flUiWGBPoJYL1VBspZqCxA/s1600/master.png" alt=""></div>
+                    <div class="v">MasterCard</div>
+                </div>
+                <div class="p">
+                    <div class="l">Cardnumber</div>
+                    <div class="number"><input type="number" placeholder="0000 0000 0000 0000"></div>
+                </div>
+                <div class="p">
+                    <div class="l">Security code</div>
+                    <div class="code"><input type="text" placeholder="Security code"></div>
+                </div>
+                <div class="p">
+                    <div class="l">Name on card</div>
+                    <div class="card"><input type="text" placeholder="Name of card"></div>
+                </div>
+            </fieldset>
+            <div class="button">
+                <button>BUY IT</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

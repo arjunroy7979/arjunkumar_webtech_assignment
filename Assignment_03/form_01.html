@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form_01</title>
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            background: linear-gradient(45deg, #E7DECC , #F7A890, #90F7A8,#90F7EB ,#79d874 );
+        }
+        #main{
+            width: 550px;
+            height: 400px;
+            box-shadow: -20px 26px 37px hsla(265, 100%, 0% , 0.9);
+            border-radius: 8px;
+            margin: 100px 0 0 400px;
+            background-color: rgba(211, 211, 211, 0.8);
+        }
+        .text{
+            text-align: center;
+            padding: 25px;
+            font-weight: bolder;
+            font-size: 25px;
+        }
+        .logo{
+            display: flex;
+            width: 39px;
+            height:39px;
+            margin-left: 52px;
+            border-radius: 50px;
+        }
+        img{
+            width: 39px;
+            height:39px;
+            border-radius: 50px; 
+        }
+        input{
+            height: 30px;
+            border-radius: 8px;
+            margin-left: 20px;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+        input:hover{
+            border-color: rgb(255, 165, 0);
+        }
+        .message{
+            margin-left: 39px;   
+        }
+        .message input{
+            width: 435px;
+            height: 90px;
+            text-align:center;
+        }
+        .button{
+            margin-left: 225px;
+            margin-top: 10px;
+        }
+        .button input{
+            font-size: 20px;
+            font-weight: bolder;
+            box-shadow: -3px 0px 3px rgb(0, 0, 0);
+        }
+        .button input:hover{
+            color: white;
+            background:rgb(10, 10, 10);
+            box-shadow: -3px 0px 3px rgba(255, 0, 0, 05);
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="text">Responsive Contact us Form</div>
+        <br>
+        <div class="logo">
+            <div><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuWYQpv0AIqSHrIbrmpv4dC_QQ87pGoah-iU9L_YPKrqSyPTWYr1m1IZX8cJSzEdT-KM4xdk3HCULTa_DrHKSP3jhFv-voST8ae0fNLOC029BJ4ufMkbixsbTl5F2ojlj9WJZ2uW8gJdl5I1pyXV3kTDzhQNSoYbSQR8-_M6-R6-Vm2KmFFVj4KcneYw/s1600/contact.png" alt=""></div>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+        </div>
+        <br>
+        <div class="logo">
+            <div><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHQCIvpvLU3cskpplTDYrfAcFlq9zEr3LcyI-7DgknEZKCuTWYFLEJNfNCNWk5aOS2Y0NA_uu_bm2SwpiKSDbJaAnzADvucItEpYqVErQ5ZTUXkmE4qs9zgVCh_ntrnxt9Y6-en6Jgl1NTrVarNHuTy3ros1ECPOcn5o9gKm6mPvAGxmwm1r_d-SxBLQ/s320/email.png" alt=""></div>
+            <input type="text" placeholder="Email Address">
+            <input type="text" placeholder="Website Name">
+        </div>
+        <br>
+        <div class="message"><input type="text" placeholder="Your Message Here"></div>
+        <br>
+        <div class="button"><input type="submit" value="SUBMIT"></div>
+    </div>
+</body>
+</html>
