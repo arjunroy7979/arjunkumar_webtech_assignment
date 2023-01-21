@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test</title>
+    <style>
+        body{
+            margin: 90px 0 90px 400px;
+            background: linear-gradient(45deg, #E7DECC , #F7A890, #90F7A8,#90F7EB ,#95F790 );
+            font-family: sans-serif;
+        }
+        #container{
+            width: 520px;
+            height: 910px;
+            box-shadow: -6px 15px 42px rgb(0 0 0 / 80%);
+            border-radius: 15px;
+            background-color: rgba(211, 211, 211, 0.5);
+        }
+        #container:hover{
+            background-color: lightgray;
+        }
+        #text{
+            margin: 20px 0 20px 150px;
+            padding: 25px;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        #texts{
+            margin: 20px 0 20px 63px;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        td{
+            padding: 10px;
+            margin-left: 20px;
+        }
+        table{
+            margin-left: 71px;
+            font-weight: bolder;
+        }
+        textarea{
+           max-width: 174px; 
+            max-height: 66px;
+            border-radius: 10px;
+        }
+        textarea{
+            max-width: 174px;
+            max-height: 50px;
+        }
+        .btn{
+            margin-left: 232px;
+        }
+        button{
+            font-size: 20px;
+            font-weight: bolder;
+            border-radius: 8px;
+        }
+        button:hover{
+            color: white;
+            background-color: black;
+        }
+        input{
+            border-radius: 10px;
+            height: 30px;
+        }
+        input:hover{
+            border-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="text">
+            Application
+        </div>
+        <div id="texts">
+            Please fill out the application form carefully
+        </div>
+        <form >
+        <table>
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" placeholder="Full Name"></td>
+            </tr>
+            <tr>
+                <td>Father Name</td>
+                <td><input type="text"placeholder="Father Name"></td>
+            </tr>
+            <tr>
+                <td>Mother Name</td>
+                <td><input type="text" placeholder="Mother Name"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="datetime" placeholder="DOB  DD-MM-YY"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="text" placeholder="Gender"></td>
+            </tr>
+            <tr>
+                <td>Email Address</td>
+                <td><input type="email" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="number" placeholder="Mobile Number" ></td>
+            </tr>
+            <tr>
+                <td>Course Description</td>
+                <td><textarea name="" id="" cols="30" rows="10" placeholder="Course Description"></textarea></td>
+            </tr>
+            <tr>
+                <td>Course Name</td>
+                <td><input type="text" placeholder="Course Name"></td>
+            </tr>
+            <tr>
+                <td>Type of Education</td>
+                <td><input type="text" placeholder="Type of Education" ></td>
+            </tr>
+            <tr>
+                <td>Course Description</td>
+                <td><textarea name="" id="" cols="30" rows="10" placeholder="Course Description"></textarea></td>
+            </tr>  
+        </table>
+    </form>
+        
+        <br>
+        <div class="btn"><button>Apply</button></div>
+    </div>
+</body>
+</html>
